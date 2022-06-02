@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Email Confirmation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+      /**
+   * Google webfonts. Recommended to include the .woff version for cross-client compatibility.
+   */
+      @media screen {
+        @font-face {
+          font-family: "Source Sans Pro";
+          font-style: normal;
+          font-weight: 400;
+          src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"),
+            url(https://fonts.gstatic.com/s/sourcesanspro/v10/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff)
+              format("woff");
+        }
+
+        @font-face {
+          font-family: "Source Sans Pro";
+          font-style: normal;
+          font-weight: 700;
+          src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"),
+            url(https://fonts.gstatic.com/s/sourcesanspro/v10/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff)
+              format("woff");
+        }
+      }
+
+      /**
+   * Avoid browser level font resizing.
+   * 1. Windows Mobile
+   * 2. iOS / OSX
+   */
+      body,
+      table,
+      td,
+      a {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      /**
+   * Remove extra space added to tables and cells in Outlook.
+   */
+      table,
+      td {
+        mso-table-rspace: 0pt;
+        mso-table-lspace: 0pt;
+      }
+
+      /**
+   * Better fluid images in Internet Explorer.
+   */
+      img {
+        -ms-interpolation-mode: bicubic;
+      }
+
+      /**
+   * Remove blue links for iOS devices.
+   */
+      a[x-apple-data-detectors] {
+        font-family: inherit !important;
+        font-size: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        color: inherit !important;
+        text-decoration: none !important;
+      }
+
+      /**
+   * Fix centering issues in Android 4.4.
+   */
+      div[style*="margin: 16px 0;"] {
+        margin: 0 !important;
+      }
+
+      body {
+        width: 100% !important;
+        height: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+
+      /**
+   * Collapse table borders to avoid space between cells.
+   */
+      table {
+        border-collapse: collapse !important;
+      }
+
+      .logo {
+        height: 45px;
+        width: 194px;
+      }
+      p a img {
+        display: block;
+        width: 20px;
+        max-width: 20px;
+        min-width: 20px;
+        background: #000;
+        border-radius: 30px;
+        font-size: 20px;
+        margin-right: 7px;
+        margin-left: 10px;
+        padding: 7px;
+        align-items: center;
+        color: #000;
+      }
+
+      span {
+        font-weight: 800;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body style="background-color: #e5e5e5">
+    <!-- start body -->
+    <table
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      width="100%"
+      style="margin-top: 40px"
+    >
+      <tr>
+        <td align="center" bgcolor="#e5e5e5">
+          <table
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            width="100%"
+            style="max-width: 600px"
+          >
+            <tr>
+              <td
+                align="center"
+                bgcolor="#ffffff"
+                style="
+                  padding: 36px 24px 0;
+                  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                  border-top: 3px solid #d4dadf;
+                "
+              >
+                <img
+                  src="./assets//logos/logo-black.png"
+                  alt="Logo"
+                  border="0"
+                  width="194"
+                  class="logo"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td
+                align="left"
+                bgcolor="#ffffff"
+                style="
+                  padding: 36px 24px 0;
+                  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                "
+              >
+                <p style="margin: 0">Dear [First name],</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center" bgcolor="#e5e5e5">
+          <table
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            width="100%"
+            style="max-width: 600px"
+          >
+            <tr>
+              <td
+                align="justify"
+                bgcolor="#ffffff"
+                style="
+                  padding: 24px;
+                  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                  font-size: 16px;
+                  line-height: 24px;
+                "
+              >
+                <p style="margin: 0">
+                  Thank you for contacting
+                  <span>Solution For Change.</span> Your opinion means the world
+                  to us.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                align="left"
+                bgcolor="#ffffff"
+                style="
+                  padding-top: 3px;
+                  padding-left: 24px;
+                  padding-right: 24px;
+                  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                  font-size: 16px;
+                  line-height: 24px;
+                "
+              >
+                <p style="margin: 0">
+                  We are trying to resolve your request. One of our
+                  representitives will get back to you soon.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                align="left"
+                bgcolor="#ffffff"
+                style="
+                  padding-top: 10px;
+                  padding-left: 24px;
+                  padding-right: 24px;
+                  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                  font-size: 16px;
+                  line-height: 24px;
+                "
+              >
+                <p style="margin: 0">
+                  We'll respond as soon as possible, but for the meantime, you
+                  can check the FAQ on our Help Center or subcribe to our
+                  newsletter to stay updated.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                align="left"
+                bgcolor="#ffffff"
+                style="
+                  padding: 24px;
+                  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                  font-size: 16px;
+                  line-height: 24px;
+                "
+              >
+                <p style="margin: 0; display: flex; align-items: center">
+                  Check us out on social media too!
+                  <a href="#" target="_blank" style="display: inline-block">
+                    <img
+                      src="./assets//icons/twitter-social.svg"
+                      alt="Logo"
+                      border="0"
+                      width="48"
+                    />
+                  </a>
+                  <a href="#" target="_blank" style="display: inline-block">
+                    <img
+                      src="./assets/icons/instagram-social.svg"
+                      alt="Logo"
+                      border="0"
+                      width="48"
+                    />
+                  </a>
+                  <a href="#" target="_blank" style="display: inline-block">
+                    <img
+                      src="./assets/icons/facebook-social.svg"
+                      alt="Logo"
+                      border="0"
+                      width="48"
+                    />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/company/solution-social-network"
+                    target="_blank"
+                    style="display: inline-block"
+                  >
+                    <img
+                      src="./assets/icons/linkedin-social.svg"
+                      alt="Logo"
+                      border="0"
+                      width="48"
+                    />
+                  </a>
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                align="left"
+                bgcolor="#ffffff"
+                style="
+                  padding: 24px;
+                  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                  font-size: 16px;
+                  line-height: 24px;
+                  border-bottom: 3px solid #d4dadf;
+                "
+              >
+                <p style="margin: 0">
+                  Thank You! <br />
+                  <span>Solution For Change</span>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center" bgcolor="#e5e5e5" style="padding: 0px">
+          <table
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            width="100%"
+            style="max-width: 600px"
+          >
+            <tr>
+              <td
+                align="left"
+                bgcolor="#ffffff"
+                style="
+                  padding: 24px;
+                  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                  font-size: 14px;
+                  line-height: 20px;
+                  color: #666;
+                "
+              >
+                <p style="margin: 0">
+                  Please note that this email is automated response to confirm
+                  receipt of your correspondence. Do not reply to this email
+                  directly. This email was sent from a notification-only address
+                  that cannot accept incoming emails.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
